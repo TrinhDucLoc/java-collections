@@ -93,6 +93,6 @@ public class HashSetApp<K> {
         System.out.println("Contains 'hello' after removal: " + set.contains("hello")); // Output: false
 
         System.out.println("Size: " + set.size()); // Output: 1
-        System.out.println("Is empty: " + set.isEmpty()); // Output: false
+        System.out.println("Is empty: " + set.isEmpty());
     }
 }
