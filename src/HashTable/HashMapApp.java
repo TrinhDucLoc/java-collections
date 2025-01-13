@@ -1,6 +1,5 @@
 package HashTable;
 
-import java.util.HashMap;
 import java.util.LinkedList;
 
 public class HashMapApp<K, V> {
