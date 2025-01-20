@@ -1,5 +1,6 @@
 package HashTable;
 
+import java.util.Hashtable;
 import java.util.LinkedList;
 
 public class HashSetApp2<T> {
@@ -100,5 +101,8 @@ public class HashSetApp2<T> {
 
         hashSetApp2.remove(new Person("Loc", 25));
         System.out.println("Size: " + hashSetApp2.size());
+
+
+        Hashtable<Integer, String> hashtable = new Hashtable();
     }
 }
