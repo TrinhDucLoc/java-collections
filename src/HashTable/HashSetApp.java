@@ -17,7 +17,7 @@ public class HashSetApp<K> {
     }
 
     private int getBucketIndex(K key) {
-        int hashCode = key == null ? 0 : key.hashCode();
+        int hashCode = (key == null ? 0 : key.hashCode());
         return Math.abs(hashCode % buckets.length);
     }
 
